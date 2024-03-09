@@ -9,8 +9,7 @@ const products = [
         name: "Pineapple Juice",
         image: "images/pineapple-juice.jpg",
         formUrl: "https://forms.gle/wckrQeMaFoP5e2E86"
-    }
-    ,
+    },
     {
         name: "Lemon Juice",
         image: "images/lemon-juice.jpg",
