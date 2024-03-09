@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Add transition for smoother animation */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.product-card h3 {
+    margin: 5px 0;
+}
+
+.product-card p {
+    margin: 5px 0;
+}
