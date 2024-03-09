@@ -33,9 +33,6 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
-    display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
 }
 
 footer {
@@ -54,8 +51,7 @@ footer {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
-    display: inline-block;
+    width: 100%; /* Adjusted width for mobile */
     transition: transform 0.3s ease; /* Add transition for smoother animation */
 }
 
