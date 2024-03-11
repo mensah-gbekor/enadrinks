@@ -44,4 +44,3 @@ function displayProducts() {
 
 // Display products when the page loads
 window.onload = displayProducts;
-#jobwelldone
